@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Barrel Calculator</title>
+</head>
+<body>
+    <h1>Barrel Mixing Calculator</h1>
+    <form id="calcForm">
+        <label for="barrel_number">Number of Barrels:</label>
+        <input type="number" id="barrel_number" name="barrel_number" required>
+        <br>
+
+        <!-- Barrel Information -->
+        <div id="barrel_inputs">
+            <!-- Dynamically generated based on barrel_number -->
+        </div>
+
+        <!-- Target Information -->
+        <strong>Target Barrel</strong>
+        <br>
+
+        <div>
+            <label for="target_weight">Target Weight:</label>
+            <input type="number" id="target_weight" name="target_weight" required>
+            <br>
+        </div>
+
+        <div>
+            <label for="target_x_min">Target X Min:</label>
+            <input type="number" id="target_x_min" name="target_x_min" required>
+            <br>
+            <label for="target_x_max">Target X Max:</label>
+            <input type="number" id="target_x_max" name="target_x_max" required>
+            <br>
+        </div>
+
+        <div>
+            <label for="target_y_min">Target Y Min:</label>
+            <input type="number" id="target_y_min" name="target_y_min" required>
+            <br>
+            <label for="target_y_max">Target Y Max:</label>
+            <input type="number" id="target_y_max" name="target_y_max" required>
+            <br>
+        </div>
+
+        <div>
+            <label for="target_z_min">Target Z Min:</label>
+            <input type="number" id="target_z_min" name="target_z_min" required>
+            <br>
+            <label for="target_z_max">Target Z Max:</label>
+            <input type="number" id="target_z_max" name="target_z_max" required>
+            <br>
+        </div>
+
+        <div>
+            <label for="target_w_min">Target W Min:</label>
+            <input type="number" id="target_w_min" name="target_w_min" required>
+            <br>
+            <label for="target_w_max">Target W Max:</label>
+            <input type="number" id="target_w_max" name="target_w_max" required>
+            <br>
+        </div>
+
+        <div>
+            <label for="target_v_min">Target V Min:</label>
+            <input type="number" id="target_v_min" name="target_v_min" required>
+            <br>
+            <label for="target_v_max">Target V Max:</label>
+            <input type="number" id="target_v_max" name="target_v_max" required>
+            <br>
+        </div>
+
+
+
+        <button type="submit">Calculate</button>
+    </form>
+
+    <div id="result">Solution will be displayed here</div>
+
+    <script src="/static/script.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+

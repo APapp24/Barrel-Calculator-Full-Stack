@@ -1,0 +1,16 @@
+2024-04-15 16:03:06,393 INFO my_flash_app Starting Flask server
+2024-04-15 16:03:10,958 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.4:8000
+2024-04-15 16:03:10,958 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-15 16:10:17,995 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-15 16:10:17,995 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-15 16:12:18,604 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-15 16:12:18,605 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-04-15 16:12:49,169 INFO my_flash_app Rendering index page
+2024-04-15 16:12:49,172 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 16:12:49] "GET / HTTP/1.1" 200 -
+2024-04-15 16:12:49,384 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 16:12:49] "GET /static/script.js HTTP/1.1" 200 -
+2024-04-15 16:12:49,388 INFO werkzeug 127.0.0.1 - - [15/Apr/2024 16:12:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
